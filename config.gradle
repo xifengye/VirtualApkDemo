@@ -2,16 +2,16 @@
 ext{
     isPlugin=true
     android=[
-            compileSdkVersion:27,
+            compileSdkVersion:24,
             applicationId:"com.moregood.modularization",
             minSdkVersion:19,
-            targetSdkVersion:27,
+            targetSdkVersion:24,
             versionCode:1,
             versionName:"1.0"
     ]
 
     dependencies =[
-            supportv7: 'com.android.support:appcompat-v7:27.1.1',
+            supportv7: 'com.android.support:appcompat-v7:24.1.1',
             constraintLayout: 'com.android.support.constraint:constraint-layout:1.1.0',
             didi_core:'com.didi.virtualapk:core:0.9.1'
 
