@@ -1,0 +1,19 @@
+//用于存放一些能用的东西比如版本号
+ext{
+    isPlugin=true
+    android=[
+            compileSdkVersion:27,
+            applicationId:"com.moregood.modularization",
+            minSdkVersion:19,
+            targetSdkVersion:27,
+            versionCode:1,
+            versionName:"1.0"
+    ]
+
+    dependencies =[
+            supportv7: 'com.android.support:appcompat-v7:27.1.1',
+            constraintLayout: 'com.android.support.constraint:constraint-layout:1.1.0',
+            didi_core:'com.didi.virtualapk:core:0.9.1'
+
+    ]
+}
